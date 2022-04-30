@@ -1,0 +1,199 @@
+一、JavaScript程序实现变色
+
+1，认识HTML,CSS和JS
+
+HTML:
+	网页的结构：
+	html, head , body 
+	
+	HTML元素：
+	<h1></h1>
+	<h2></h2>
+	<p></p>
+	<img src="" />
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	
+	标签（标记 Tag）
+
+CSS: 层叠样式表  用来设置元素的样式
+	cascading style sheet  
+	
+	<标签 style="属性:属性值; " >
+
+	color属性   red属性值
+
+	style:样式
+	
+	
+HTML: 负责网页的内容
+CSS: 负责网页的样式 ，装修网页 
+JavaScript: 负责网页的动态效果
+
+Web前端：
+HTML+CSS+JS   三剑客
+
+Web后端：
+Linux，服务器 ，网站的程序 
+
+HTML标签：
+
+	<button>按钮上显示的文字</button>
+
+	button: 按钮
+
+
+
+ctrl+shift 切换不同输入法
+ctrl+空格 切换中英文
+
+
+JavaScript:
+
+<button onclick="">
+
+onclick: 触发动作
+
+document: 文档  .doc  .docx
+get
+Elements: 元素  
+by
+TagName: 标签名字   TagName('table')
+[下标]: 第几个元素 指定某一个元素  为0开始计数
+
+.style.color  ： 样式中的color属性
+
+= 
+
+
+
+
+
+
+
+二、表单与表单元素
+
+	<form action="x.php" method="post/get">
+	
+	action:指定把数据提交到的服务器上的接收地址
+	methon:数据提交的方式
+		post:单向的数据传输
+		get：双向的，需要返回结果  搜索引擎
+		
+		
+	
+	
+	表单元素：文本框，密码框，单选框，复选框
+			下拉框 
+			
+	1，文本框  ：
+	
+		<input type="text" value="" >
+		
+		input: 输入
+		type:类型
+		text:文本 
+		value: 值(默认值)
+	2，密码框：
+		<input type="password">
+		
+	3, 单选框： 多个选项中选一个	
+		<input type="radio" name="" value="">
+		同一组单选框，name值必须一样
+		value值各不相同
+		
+		
+	4，多选框：
+	
+		<input type="checkbox" name="" value="">
+		
+		checkbox:确认框
+		同一组多选框，name值一样，value各不相同
+		
+	5, 下拉框（选择框）
+	
+		<select name="year">
+			<option value="2002" selected>2002年</option>
+		
+		</select>
+	
+		select:选择
+		option：选项
+		selected:默认选中
+		
+	6，文件域：
+	
+		<input type="file" name="">
+		
+		file:文件
+	
+	7， 多行文本域：
+	
+		<textarea name="" rows="" cols="" >
+		
+		</textarea>
+		
+		rows:行数
+		cols：宽度（每行的字符数）
+		
+	8，提交按钮：
+		
+		<input type="submit" value="按钮上显示的文字">
+	
+	submit:提交 
+	
+	9,重置按钮：
+		<input type="reset" value="">
+		
+		reset:重置  
+
+	10，普通按钮：
+		
+	<input type="button" value="">
+	
+		button:按钮 
+		
+	11,图像按钮：
+	
+	<input type="image" src="" width="" >
+		
+		image:图像
+		src: source 源地址
+		
+	注意：图像按钮自带了提交功能 
+	
+		
+本节课任务：
+
+
+一、HTML表单元素
+
+二、JavaScript验证密码	
+		
+		
+		
+		
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
